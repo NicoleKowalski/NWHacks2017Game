@@ -8,7 +8,7 @@ public class CameraMovement : MonoBehaviour
 
     void LateUpdate()
     {
-        transform.position = player.transform.position;
-        transform.forward = -player.transform.up;
+        transform.position = player.transform.position + new Vector3(0,1,0);
+        transform.forward = player.transform.forward;
     }
 }
