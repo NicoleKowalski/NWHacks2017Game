@@ -18,6 +18,9 @@ ExportedObj/
 *.booproj
 *.svd
 
+#KENNY ADDED THIS. Comment it out with a # if it breaks things in git.
+*metadata*
+
 
 # Unity3D generated meta files
 *.pidb.meta
