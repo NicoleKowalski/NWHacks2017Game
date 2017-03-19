@@ -19,8 +19,8 @@ ExportedObj/
 *.svd
 
 #KENNY ADDED THIS. Comment it out with a # if it breaks things in git.
-*metadata*
-*/Temp/*
+#*metadata*
+#*/Temp/*
 
 # Unity3D generated meta files
 *.pidb.meta
