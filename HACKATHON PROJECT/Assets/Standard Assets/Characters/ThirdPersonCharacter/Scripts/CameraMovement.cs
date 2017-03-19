@@ -9,6 +9,6 @@ public class CameraMovement : MonoBehaviour
     void LateUpdate()
     {
         transform.position = player.transform.position;
-        transform.forward = -player.transform.right;
+        transform.forward = -player.transform.up;
     }
 }
